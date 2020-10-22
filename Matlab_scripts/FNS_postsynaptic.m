@@ -69,4 +69,4 @@ for ii = (1:Nn)
     end
 end
 xlabel('f (Hz)'); % for x-axis label
-xlim([0 100]) % right limit for x-axis label
+xlim([0 100]) % Spectrum frequency interval
