@@ -12,13 +12,13 @@ Finally,
 Examples
 ----
 From FNS_postsynaptic.m
->![Alt text](https://github.com/jescab01/FNS-scripts_and_tools/blob/patch-2/Matlab_scripts/postsynaptic%20signals.png)
->![Alt text](https://github.com/jescab01/FNS-scripts_and_tools/blob/patch-2/Matlab_scripts/postsynaptic%20spectrum.png)
+>![Alt text](https://github.com/jescab01/FNS-scripts_and_tools/blob/patch-2/Matlab_scripts/examples/postsynaptic%20signals.png)
+>![Alt text](https://github.com/jescab01/FNS-scripts_and_tools/blob/patch-2/Matlab_scripts/examples/postsynaptic%20spectrum.png)
 
 
 From FNS_spiking.m:
->![Alt text](https://github.com/jescab01/FNS-scripts_and_tools/blob/patch-2/Matlab_scripts/firing%20signal.png)
->![Alt text](https://github.com/jescab01/FNS-scripts_and_tools/blob/patch-2/Matlab_scripts/firing%20rasterplot.png)
+>![Alt text](https://github.com/jescab01/FNS-scripts_and_tools/blob/patch-2/Matlab_scripts/examples/firing%20signal.png)
+>![Alt text](https://github.com/jescab01/FNS-scripts_and_tools/blob/patch-2/Matlab_scripts/examples/firing%20rasterplot.png)
 
 
 
