@@ -1,0 +1,25 @@
+How to
+----
+First, obtain **matlab compliant files** as simulation output of FNS: use the switch '-m' in the experiment command, as explained on the user manual.
+
+Then, **rename** the output files of the simulation as 'burning_matlab.csv' and 'firing_matlab.csv', and locate them in the matlab current folder.
+
+Finally, 
+- run the script **FNS_spiking.m** to obtain the rasterplot and the related time series of the spiking activity produced by the simulated nodes (brain regions);
+- run the script **FNS_postsynaptic.m** to obtain the time series of the local field potential evoked at the specified nodes (brain regions).
+
+
+Examples
+----
+From FNS_postsynaptic.m
+>![image](postsynaptic signals.png)
+>![image](postsynaptic spectrum.png)
+
+
+From FNS_spiking.m:
+>![image](firing signal.png)
+>![image](firing rasterplot.png)
+
+
+
+
