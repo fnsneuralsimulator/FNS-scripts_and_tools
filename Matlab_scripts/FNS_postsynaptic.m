@@ -1,3 +1,9 @@
+%% VISUALIZATION OF THE POSTSYNAPTIC ACTIVITY OF THE MODEL 
+% In order to obtain the time series of the postsynaptic 
+% potential of single simulation, please rename and put the file 
+% burning_matlab.csv (generated from FNS) on the current folder 
+% and Run this script. 
+
 T = readtable(sprintf('burning_matlab.csv'));
 b_mat = table2array(T);
 clearvars T;
