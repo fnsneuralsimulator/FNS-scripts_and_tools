@@ -80,8 +80,8 @@ for ii = (1:Nn)
     else
         set(gca,'XTickLabel',[]);
     end
+    xlim([1 100]) % Spectrum frequency interval
 end
 
-xlim([1 100]) % Spectrum frequency interval
 xlabel('f (Hz)'); % for x-axis label
 
