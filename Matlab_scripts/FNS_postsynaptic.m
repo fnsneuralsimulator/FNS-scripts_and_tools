@@ -100,7 +100,7 @@ for ii = (1:Nn)
     else
         set(gca,'XTickLabel',[]);
     end
+    xlim([1 100]) % Spectrum frequency interval (if inf=1 then DC is not plotted)
 end
 
-xlim([1 100]) % Spectrum frequency interval (if inf=1 then DC is not plotted)
 xlabel('f (Hz)'); % for x-axis label
