@@ -90,7 +90,7 @@ xlabel('time (ms)'); % for x-axis label
 figure ()
 for ii = (1:Nn)
     ax(ii) = subplot(Nn,1,ii);
-    plot (f, smooth(LFP(ii).FFT,'lowess')'); ylabel(['N_' num2str(ii-1)]); % Smoothed
+    plot (f, LFP(ii).FFT'); ylabel(['N_' num2str(ii-1)]);
     
     if ii==1
         title('|A1(f)| : Single-Sided Amplitude Spectrum of LFP');
