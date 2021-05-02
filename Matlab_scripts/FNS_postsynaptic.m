@@ -29,7 +29,7 @@ for ii = (1:(Nn))
         clear temp temp2 temp3
         LFP(ii).time_series_collect (jj,1) = {LFP(ii).sorted_contributions(LFP(ii).sorted_contributions(:,3) == (jj-1), [3,1,4,5])'}; % store contributions in cell-structures: neuron number, time, from state, to state
         temp= cell2mat(LFP(ii).time_series_collect (jj,1)); % move the neuron-specific contribution in a temporary array
-        if ~isempty(temp); % this if is to process only the output of neurons that produced spikes
+        if ~isempty(temp) % this if is to process only the output of neurons that produced spikes
 
             for kk= 1:size(temp,2)
                 temp2 (1:2,(2*kk-1)) = [temp(2,kk) ; temp(3,kk)]; % low points of LFP
