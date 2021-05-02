@@ -14,7 +14,7 @@ Nn = input(prompt); %number of nodes
 prompt='Please input the simulation duration (ms):';
 sim_dur = input(prompt);
  
-edges=[0:1:sim_dur]; %for a resolution of 1 ms in MUA signal generation
+edges = (0:1:sim_dur); %for a resolution of 1 ms in MUA signal generation
 
 %gather firing events of neurons pertaining to each node;
 for ii = (1:Nn)
